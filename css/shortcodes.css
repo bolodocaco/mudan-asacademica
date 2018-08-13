@@ -777,7 +777,7 @@ body.table-hover:not(.woocommerce-page) table tr:hover td{-webkit-transition:all
 
 /* Trailer box ----------------------------------------------------------------------- */
 .trailer_box{text-align:center;position:relative;line-height:0}
-.trailer_box a{display:block; /* box-shadow: 0.5vw 0.5vh 20px 6px rgba(0,0,0,.5)*/border: 2px solid #000; border-radius:5px; } /* CUSTOM CSS*/
+.trailer_box a{display:block; box-shadow: 5px 5px 10px 4px rgba(0,0,0,.6);} /* CUSTOM CSS PAULO*/
 .trailer_box a:after{content:"";display:block;position:absolute;left:0;bottom:0;z-index:1;width:100%;height:100%;filter:alpha(opacity=0);opacity:0;background:rgba(0,0,0,.15)}
 .trailer_box:hover a:after{filter:alpha(opacity=100);opacity:100}
 .trailer_box .desc{position:absolute;left:0;bottom:0;z-index:2;width:100%;padding:20px 15px 35px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
@@ -787,7 +787,7 @@ body.table-hover:not(.woocommerce-page) table tr:hover td{-webkit-transition:all
 .trailer_box:hover .desc .subtitle{bottom:20px}
 .trailer_box .desc .line{height:1px;width:0;margin:0 auto;background:#fff;overflow:hidden;display:block}
 .trailer_box:hover .desc .line{width:60%}
-.wpb_wrapper{padding-bottom: 3vh;}
+.wpb_wrapper{padding-bottom: 3%; padding-bottom: 3vh;} /* CUSTOM CSS PAULO */
 /* Animation */
 .trailer_box a:after,.trailer_box .desc .subtitle,.trailer_box .desc .line,.trailer_box .desc h2{-webkit-transition:all .3s ease-in-out;-moz-transition:all .3s ease-in-out;-o-transition:all .3s ease-in-out;transition:all .3s ease-in-out}
 

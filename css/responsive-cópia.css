@@ -1211,21 +1211,20 @@ html,body{overflow-x:hidden}
 		.edd_downloads_list .edd_download { width: 100% !important; }
 		.edd_downloads_list .edd_download .edd_download_inner { margin: 0 8% 20px; }
 
-		/* CUSTOM CSS PAULO*/
+		/* CUSTOM CSS */
 		.vc_custom_1467716054303 {display:flex; flex-direction:column; }
-		.vc_custom_1533728978544 {
-			padding-bottom:3%;
-			padding-bottom:3vh;}
+		.vc_custom_1533728978544 {padding-bottom:3vh;}
 		.numba {order:2;}
 		.numbb {order:1;}
 		.logo-mobile {min-width: 75px; min-height:80px;}
-		/* #Top_bar {height:20vh;} */
+		#Top_bar {height:20vh;}
 		#menu-main-menu { display:flex !important; flex-direction:column; background:#FFFFFF;}
 		.menu-main-menu-container { display:flex; flex-direction:column; z-index: 69 !important;}
-		#menu { top:210% !important;}
+		#menu { top:240% !important;}
 		#Top_bar:not(.is-sticky) .menu_wrapper{
-			margin-top: 30% !important;
+
 			margin-top: 30vh !important;
+
 		}
 		/* .mfn.main-slider { z-index:-1 !important; position:relative !important;} */
 }

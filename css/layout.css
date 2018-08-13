@@ -708,7 +708,7 @@ body:not(.template-slider) #Header{min-height:250px}
 	/* style */
 	.subheader-title-right #Subheader .title{float:right;text-align:right}
 	.subheader-title-right #Subheader .breadcrumbs{float:left;text-align:left}
-	.subheader-both-left #Subheader .title{width:100%;font-family: 'Raleway', sans-serif;}
+	.subheader-both-left #Subheader .title{width:100%;font-family: 'Raleway', sans-serif; line-height:20px; line-height:6vh;} /*CUSTOM CSS PAULO */
 	.subheader-both-left #Subheader .breadcrumbs{width:100%;text-align:left;margin-top:10px}
 	.subheader-both-right #Subheader .title{width:100%;text-align:right}
 	.subheader-both-right #Subheader .breadcrumbs{width:100%;text-align:right;margin-top:10px}
