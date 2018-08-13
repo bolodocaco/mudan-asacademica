@@ -213,7 +213,6 @@ html,body{overflow-x:hidden}
 
 		#Header_creative.scroll { overflow:visible !important;}
 
-	/*change*/
 	#Top_bar .menu_wrapper { float:left !important; width:100%; margin:0 !important; }
 	#Top_bar #menu { float: left; position: static !important; width: 100% !important; padding-bottom:20px;}
 
@@ -741,7 +740,7 @@ html,body{overflow-x:hidden}
 	.admin-bar #Header a.responsive-menu-toggle.is-sticky { top: 56px !important; }
 
 	#Top_bar .menu_wrapper { float:left !important; width:100%; margin:0 !important; }
-	#Top_bar #menu { margin-top: 60px !important; float: left; position: static !important; width: 100% !important; padding-bottom:20px;}
+	#Top_bar #menu { float: left; position: static !important; width: 100% !important; padding-bottom:20px;}
 
 	#Top_bar .logo { position: static; float: none; width: 100%; text-align: center; margin: 0; }
 	#Top_bar .logo #logo { padding:0; margin: 5px 42px 15px;}
