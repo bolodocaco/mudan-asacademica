@@ -83,7 +83,7 @@ body.nice-scroll:not(.layout-boxed){padding-right:10px!important}
 /* Pager ----------------------------------------------------------------------------- */
 .pager_wrapper{margin-bottom:0}
 .pager{text-align:center}
-.pager .pages{display:inline-block;margin:20px 30px 0;padding:4px 3px;-webkit-border-radius:5px;border-radius:5px;background-color:#f8f8f8;background-image:url(../images/stripes/stripes_3_b.png);font-family: 'Raleway', sans-serif;}
+.pager .pages{display:inline-block;margin:20px 30px 0;padding:4px 3px;-webkit-border-radius:5px;border-radius:5px;background-color:#000000;background-image:url(../images/stripes/stripes_3_b.png);font-family: 'Raleway', sans-serif;}
 .pager .pages a,.pager .pages span.page-numbers{display:inline-block;margin:0 1px;width:35px;height:35px;line-height:35px;text-align:center;-webkit-border-radius:5px;border-radius:5px}
 .pager .pages a:hover{text-decoration:none}
 .pager .pages a:hover,.pager .pages a.active,.pager .pages span.page-numbers.current{color:#fff}
@@ -1073,7 +1073,7 @@ body:not(.template-slider) #Header{min-height:250px}
 	.Recent_posts ul li{margin-bottom:10px}
 	.Recent_posts ul li:last-child{margin-bottom:0}
 	.Recent_posts ul li a{text-decoration:none}
-	.Recent_posts ul li .desc{margin-right:80px;padding:5px 15px;background:#fff;position:relative;min-height:70px}
+	.Recent_posts ul li .desc{width: 100%; padding:5px 15px;background:#fff;position:relative;min-height:70px}/*change*/
 	.Recent_posts ul li .desc:after{content:"";display:block;position:absolute;right:0;top:0;width:4px;height:100%}
 	.Recent_posts ul li .desc h6{position:relative;z-index:2;margin-bottom:3px;padding-bottom:3px;border-bottom-width:1px;border-style:solid}
 	.Recent_posts ul li .desc .date{position:relative;z-index:2}
