@@ -583,7 +583,7 @@ html,body{overflow-x:hidden}
 	.edd_downloads_list .edd_download .edd_download_inner { margin: 0 5% 20px; }
 
 	/* CUSTOM CSS PAULO*/
-	.logo-main {padding-right:15vw;}
+	.logo-main {padding-right: 15%; padding-right:15vw;}
 }
 
 
