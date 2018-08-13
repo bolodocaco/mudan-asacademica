@@ -213,7 +213,6 @@ html,body{overflow-x:hidden}
 
 		#Header_creative.scroll { overflow:visible !important;}
 
-	/*change*/
 	#Top_bar .menu_wrapper { float:left !important; width:100%; margin:0 !important; }
 	#Top_bar #menu { float: left; position: static !important; width: 100% !important; padding-bottom:20px;}
 
@@ -585,8 +584,6 @@ html,body{overflow-x:hidden}
 	.edd_downloads_list .edd_download:nth-child(5n+3) { clear: both; }
 	.edd_downloads_list .edd_download .edd_download_inner { margin: 0 5% 20px; }
 
-	/* CUSTOM CSS PAULO*/
-	.logo-main {padding-right: 15%; padding-right:15vw;}
 }
 
 
@@ -743,11 +740,7 @@ html,body{overflow-x:hidden}
 	.admin-bar #Header a.responsive-menu-toggle.is-sticky { top: 56px !important; }
 
 	#Top_bar .menu_wrapper { float:left !important; width:100%; margin:0 !important; }
-<<<<<<< HEAD
-	#Top_bar #menu { float: left; position: absolute; width: 100% !important; padding-bottom:20px; padding-left:5vw;}
-=======
-	#Top_bar #menu { margin-top: 60px !important; float: left; position: static !important; width: 100% !important; padding-bottom:20px;}
->>>>>>> miguel1996-patch-2
+	#Top_bar #menu { float: left; position: static !important; width: 100% !important; padding-bottom:20px;}
 
 	#Top_bar .logo { position: static; float: none; width: 100%; text-align: center; margin: 0; }
 	#Top_bar .logo #logo { padding:0; margin: 5px 42px 15px;}
@@ -764,7 +757,7 @@ html,body{overflow-x:hidden}
 	#Action_bar .social { padding:0 !important;}
 	#Action_bar .contact_details { float: none; text-align: center; padding: 5px 0; }
 	#Action_bar .contact_details li { color: #000; padding: 0; }
-	#Action_bar .contact_details li.slogan { display: block; }
+	#Action_bar .contact_details li.slogan { display: none; }
 	#Action_bar .social { float: none; text-align: center; padding: 5px 0 0; }
 	#Action_bar .social li { margin-right: 5px; }
 	#Action_bar .social li a { color: rgba(0,0,0,.3); }
@@ -777,7 +770,7 @@ html,body{overflow-x:hidden}
 	/* Stack header */
 	.header-stack #Top_bar .logo { padding: 0; text-align: center !important; }
 	.header-stack #Top_bar .logo #logo { display: block;}
-	.header-stack #Top_bar .secondary_menu_wrapper { display: block; }
+	.header-stack #Top_bar .secondary_menu_wrapper { display: none; }
 	.header-stack #Top_bar .top_bar_right { position: static; }
 
 
@@ -827,7 +820,7 @@ html,body{overflow-x:hidden}
 	.header-magazine #Top_bar .banner_wrapper { width: 100%; height: auto; text-align: center; position: static; margin-bottom: 20px; }
 
 	/* Header Split */
-	.header-split #Top_bar a#search_button { display:block; }
+	.header-split #Top_bar a#search_button { display:none; }
 
 	/* Header */
 	.header-plain #Top_bar .logo { text-align: left; }
@@ -1218,30 +1211,10 @@ html,body{overflow-x:hidden}
 		.edd_downloads_list .edd_download { width: 100% !important; }
 		.edd_downloads_list .edd_download .edd_download_inner { margin: 0 8% 20px; }
 
-<<<<<<< HEAD
-		/* CUSTOM CSS PAULO*/
-		.vc_custom_1467716054303 {display:flex; flex-direction:column; }
-		.vc_custom_1533728978544 {
-			padding-bottom:3%;
-			padding-bottom:3vh;}
-		.numba {order:2;}
-		.numbb {order:1;}
-		.logo-mobile {min-width: 75px; min-height:80px;}
-		/* #Top_bar {height:20vh;} */
-		#menu-main-menu { display:flex !important; flex-direction:column; background:#FFFFFF;}
-		.menu-main-menu-container { display:flex; flex-direction:column; z-index: 69 !important;}
-		#menu { top:210% !important;}
-		#Top_bar:not(.is-sticky) .menu_wrapper{
-			margin-top: 30% !important;
-			margin-top: 30vh !important;
-		}
-		/* .mfn.main-slider { z-index:-1 !important; position:relative !important;} */
-=======
 		/* CUSTOM CSS */
 		.vc_row .wpb_row .vc_row-fluid .vc_custom_1467716054303{display:flex; flex-direction:column;}
 		.numba {order:2}
 		.numbb {order:1}
->>>>>>> miguel1996-patch-2
 }
 
 
